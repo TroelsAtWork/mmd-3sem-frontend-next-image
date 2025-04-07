@@ -1,17 +1,13 @@
-import Image from "next/image";
-import forest from "../images/forest.jpg";
-
+import Link from "next/link";
 export default function Home() {
   return (
-    <figure>
-      <Image
-        className="object-cover"
-        src={forest}
-        alt="Bøgeskoven springer ud..."
-        placeholder="blur"
-        priority
-        // fill 
-      />
-    </figure>
+    <ul>
+      <li>
+        <Link href="/local">Local Image Example</Link>
+      </li>
+      <li>
+        <Link href="/remote">Remote Image Example</Link>
+      </li>
+    </ul>
   );
 }
