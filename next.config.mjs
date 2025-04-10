@@ -4,12 +4,8 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "picsum.photos",
-        // port: "",
-        // Allow any image URL that starts with /my-bucket/
-        // pathname: "/my-bucket/**",
-        pathname: "/**",
-        // search: "",
+        hostname: "dbw3zep4prcju.cloudfront.net",
+        pathname: "/animal/**",
       },
     ],
   },

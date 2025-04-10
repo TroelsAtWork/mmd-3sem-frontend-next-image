@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning
         className={`flex justify-center items-center h-lvh ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
